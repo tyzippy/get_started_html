@@ -1,3 +1,3 @@
-# Hello World
+# Get Started with HTML
 
-Use this repository as a template for your own Hello World repository.
+You will use this repository in the 2nd class. For this repository and edit your new repository as described in the syllabus.
