@@ -45,6 +45,10 @@ p {
   margin-bottom: 1.5em;
 }
 
+p.important {
+  font-weight: bold;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Work Sans", Arial, sans-serif;
@@ -52,12 +56,26 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
+header {
+align-items: center;
+}
 
 nav {
+  margin-left: 20pt;
+  
   color: blue;
-  border: 1px;
-  border-style: solid;
-  background-color: yellow;
+  
+}
+
+nav p {
+  text-align: left;
+  line-height: 1pt;
+
+}
+
+section h1 {
+  margin-top: 40pt;
+  text-align: center;
 }
 
 article {
@@ -66,6 +84,15 @@ article {
   border-color: blue;
   padding: 10pt;
   margin: 10pt;
+}
+
+#article1 {
+
+  background-color: gray;
+}
+
+#article1 p {
+  color: white;
 }
 
 article header {
@@ -88,12 +115,16 @@ aside h2 {
   font-size: 16pt;
 }
 
+.quotation p {
+  font-style: italic;
+}
+
 footer {
   border-top: 1pt solid;
 }
 
 footer p {
   font-size: 12pt;
-  text-align: right;
+  text-align: center;
 }
 
