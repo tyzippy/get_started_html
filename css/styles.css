@@ -71,6 +71,10 @@ section h1 {
 
 article {
   border: 1px;
+  border-style: solid;
+  border-color: blue;
+  padding: 10pt;
+  margin: 10pt;
 }
 
 article header {
