@@ -88,10 +88,13 @@ article p {
 aside {
   display: inline-block;
   width: 40%;
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-left: 20pt;
 }
 
 aside h2 {
-  
+  font-size: 16pt;
 }
 
 .quotation p {
